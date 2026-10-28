@@ -42,5 +42,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Docker Compose setup for local development.
 - AWS infrastructure (RDS, ECS, CloudWatch, Secrets Manager) Terraform definitions.
 
-[Unreleased]: https://github.com/FaveTeamz/workload-governor/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/FaveTeamz/workload-governor/releases/tag/v0.1.0
+[Unreleased]: https://github.com/princessoladele/workload-governor/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/princessoladele/workload-governor/releases/tag/v0.1.0

@@ -31,7 +31,7 @@ git clone https://github.com/<your-username>/workload-governor.git
 cd workload-governor
 
 # 2. Add the upstream remote
-git remote add upstream https://github.com/FaveTeamz/workload-governor.git
+git remote add upstream https://github.com/princessoladele/workload-governor.git
 
 # 3. Install the Soroban toolchain
 rustup target add wasm32v1-none
@@ -188,8 +188,8 @@ diff links at the bottom of `CHANGELOG.md`:
 ### Added
 - ...
 
-[X.Y.Z]: https://github.com/FaveTeamz/workload-governor/compare/vPREV...vX.Y.Z
-[Unreleased]: https://github.com/FaveTeamz/workload-governor/compare/vX.Y.Z...HEAD
+[X.Y.Z]: https://github.com/princessoladele/workload-governor/compare/vPREV...vX.Y.Z
+[Unreleased]: https://github.com/princessoladele/workload-governor/compare/vX.Y.Z...HEAD
 ```
 
 ### 3. Bump the version in Cargo.toml

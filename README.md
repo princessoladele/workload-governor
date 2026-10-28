@@ -2,6 +2,8 @@
 
 A production-ready Soroban smart contract for the **AlignmentDrips Wave** platform on the Stellar network.
 
+> **Project history:** WorkloadGovernor was originally developed at `github.com/FaveTeamz/workload-governor`. That account was suspended, so development continues here. The full commit history and the work of every original contributor are kept as-is in this repository; pull requests, issues and releases from the original repository could not be recovered.
+
 ## Purpose
 
 WorkloadGovernor enforces structural fairness caps on developer workloads across open-source organizations:
