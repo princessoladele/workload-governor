@@ -7,6 +7,8 @@
 
 A production-ready Soroban smart contract for the **AlignmentDrips Wave** platform on the Stellar network.
 
+> **Project history:** WorkloadGovernor was originally developed at `github.com/FaveTeamz/workload-governor`. That account was suspended, so development continues here. The full commit history and the work of every original contributor are kept as-is in this repository; pull requests, issues and releases from the original repository could not be recovered.
+
 ## Purpose
 
 WorkloadGovernor enforces structural fairness caps on developer workloads across open-source organizations:
@@ -138,27 +140,14 @@ stellar contract invoke \
   --admin <ADMIN_ADDRESS>
 ```
 
-## Design System
+## Operations
 
-The frontend ships a token-driven design system consumed by all UI components.
-
-| Artifact | Location |
-|---|---|
-| Design tokens (JSON) | [`frontend/src/tokens.json`](frontend/src/tokens.json) |
-| CSS custom properties | [`frontend/src/tokens.css`](frontend/src/tokens.css) |
-| Component library | [`frontend/src/components/`](frontend/src/components/) |
-| Storybook stories | [`frontend/src/stories/`](frontend/src/stories/) |
-
-### Running Storybook
-
-```bash
-cd frontend
-npm run storybook        # dev server at http://localhost:6006
-npm run build-storybook  # static build → storybook-static/
-```
-
-Components covered: **Button** (primary / secondary / ghost), **Badge** (5 semantic variants), **Card**, **Modal**, **Table**, **Gauge**.  
-Dark mode is driven by `@media (prefers-color-scheme: dark)` CSS custom properties — no extra dependency required.
+| Runbook | Description |
+|---------|-------------|
+| [docs/runbooks/contract-upgrade.md](docs/runbooks/contract-upgrade.md) | Build, optimise, upload WASM, and call `upgrade` |
+| [docs/runbooks/admin-key-rotation.md](docs/runbooks/admin-key-rotation.md) | Two-step admin key transfer procedure |
+| [docs/runbooks/cap-emergency-increase.md](docs/runbooks/cap-emergency-increase.md) | Raise contributor caps (requires governance vote + upgrade) |
+| [docs/runbooks/incident-response.md](docs/runbooks/incident-response.md) | What to do when a bug is found post-deploy |
 
 ## License
 
